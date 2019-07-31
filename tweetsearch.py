@@ -10,9 +10,6 @@ import tweepy
 import string
 import time
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-#from collections import Counter
-#import os
-#from nltk.tokenize import word_tokenize
 
 
 auth = tweepy.OAuthHandler(api_key, api_secret_key)
@@ -148,37 +145,9 @@ def main():
     return
 
 
-#def start_bot():
-        
-def test():
-    for i in range (1,100):
-        try:
-            print(i)
-            time.sleep(1)
-        except:
-            break
         
 main()
 
 
-# =============================================================================
-# recent_id = api.user_timeline()[0].id   
-# print(recent_id)
-# recent_id = 1154841147228901376
-# scanned_tweets=[tweet for tweet in tweepy.Cursor(api.mentions_timeline,
-#                                                  since_id=recent_id).items()]
-# for mentions in scanned_tweets:
-#     print(mentions.user.screen_name)
-# =============================================================================
-#most_recent = api.user_timeline()[0]
-#print(scanned_tweets)
-#print (most_recent.id)
-               
-         
 
-# =============================================================================
-# searched_tweets = collect_tweets('ucsd', 1)
-# analyze_tweets(searched_tweets)
-# api.update_status("test tweeting from tw")
-# =============================================================================
-    
+         
