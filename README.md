@@ -16,7 +16,9 @@ After the bot is running, it will repeatedly scan for recent tweets @botname eve
 ## Examples
 
 Twitter User: "@botname Search for: the lakers"
+
 @botname: (replying to Twitter User) 
+
           "Results for: the lakers
           The tweets for the given topic were: 7.72% negative , 9.31% positive and 82.98% neutral."
           
